@@ -1,5 +1,5 @@
 #landscape { display:block; }
-
+/*media querys para la pantalla*/
 @media only screen and (orientation:portrait){
     #landscape {  
         -webkit-transform: rotate(90deg);
