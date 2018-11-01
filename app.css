@@ -1,4 +1,4 @@
-#contenido { display:block; }
+#landscape { display:block; }
 
 @media only screen and (orientation:portrait){
     #contenido {  
