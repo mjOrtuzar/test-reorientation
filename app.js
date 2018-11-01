@@ -3,9 +3,11 @@ $(document).ready(function () {
       var portrait = (window.orientation % 180 == 0);
       $("body > div").css("-webkit-transform", !portrait ? "rotate(-90deg)" : "");
     }
-    window.onorientationchange = reorient;
-    window.setTimeout(reorient, 0);  
+    /*window.onorientationchange = reorient;
+    window.setTimeout(reorient, 0);*/
 });
+
+
 /*var supportsOrientationChange = "onorientationchange" in window,
     orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";
 
